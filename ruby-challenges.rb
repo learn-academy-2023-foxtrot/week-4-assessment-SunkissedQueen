@@ -16,6 +16,7 @@ reposts3 = 221
 # input: number
 # output: string
 # process: create a method to take in a number and return into a string (def...end), use a conditional statement (medulo) to determine if the number is even or odd, using string interpulation it will place argument in the correct string "#{} is even" or "#{} is odd", use p to print so it will actually appear in the terminal.
+
 def num_odd_even number # method name holding the parameter of number
     if number % 2 == 0 # conditional statement that uses medulo operator to check if the number has a remainder
        p "#{number} is even" # if no remainder, this will print
@@ -23,9 +24,9 @@ def num_odd_even number # method name holding the parameter of number
        p "#{number} is odd" # if remainder, this will print
     end
 end
-num_odd_even(reposts1) # calling the method and passing reposts 1,2,3
-num_odd_even(reposts2)
-num_odd_even(reposts3)
+# num_odd_even(reposts1) # calling the method and passing reposts 1,2,3
+# num_odd_even(reposts2)
+# num_odd_even(reposts3)
 
 # -------------------2) Create a method that takes in a string and removes all the vowels from the string. Use the test variables provided. 
 # HINT: Check out this resource: https://ruby-doc.org/core-2.6/String.html#method-i-delete
@@ -41,9 +42,9 @@ beatles_album2 = 'Sgt Pepper'
 beatles_album3 = 'Abbey Road'
 # Expected output: 'bby Rd'
 
-p delete_vowels beatles_album1
-p delete_vowels beatles_album2
-p delete_vowels beatles_album3
+# p delete_vowels beatles_album1
+# p delete_vowels beatles_album2
+# p delete_vowels beatles_album3
 
 =begin
 Pseudo code:
@@ -89,12 +90,12 @@ def pali_n_drome the_word
     end
 end
 
-p pali_n_drome(palindrome_test_case1)
+# p pali_n_drome(palindrome_test_case1)
 # Expected output: 'Racecar is a palindrome'
 # MY OUTPUT:       "Racecar is a palindrome"
-p pali_n_drome(palindrome_test_case2)
+# p pali_n_drome(palindrome_test_case2)
 # Expected output: 'LEARN is not a palindrome'
 # MY OUTPUT:       "LEARN is not a palindrome"
-p pali_n_drome(palindrome_test_case3)
+# p pali_n_drome(palindrome_test_case3)
 # Expected output: 'Rotator is a palindrome'
 # MY OUTPUT:       "Rotator is a palindrome"
